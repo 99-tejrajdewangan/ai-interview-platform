@@ -47,30 +47,20 @@ A modern, fully-responsive AI-powered interview platform built with React, TypeS
 ### Setup Steps
 
 1. **Clone the repository**
-\`\`\`bash
-git clone https://github.com/yourusername/ai-interview-platform.git
+git clone https://github.com/99-tejrajdewangan/ai-interview-platform
 cd ai-interview-platform
-\`\`\`
 
 2. **Install dependencies**
-\`\`\`bash
 npm install
-\`\`\`
 
 3. **Start development server**
-\`\`\`bash
 npm run dev
-\`\`\`
 
 4. **Build for production**
-\`\`\`bash
 npm run build
-\`\`\`
 
 5. **Preview production build**
-\`\`\`bash
 npm run preview
-\`\`\`
 
 ## 🎯 Usage Guide
 
@@ -99,53 +89,11 @@ npm run preview
 - Download interview report
 - Review strengths and improvement areas
 
-## 📁 Project Structure
-
-\`\`\`
-ai-interview-platform/
-├── src/
-│   ├── components/          # Reusable components
-│   │   ├── ui/              # Basic UI components
-│   │   ├── layout/          # Layout components
-│   │   ├── interview/       # Interview-specific components
-│   │   └── common/          # Shared components
-│   ├── pages/               # Page components
-│   ├── contexts/            # React Context providers
-│   ├── hooks/               # Custom React hooks
-│   ├── types/               # TypeScript type definitions
-│   ├── utils/               # Utility functions
-│   ├── App.tsx              # Main App component
-│   ├── main.tsx             # Entry point
-│   └── index.css            # Global styles
-├── public/                  # Static assets
-├── index.html               # HTML template
-├── package.json             # Dependencies
-├── tsconfig.json            # TypeScript config
-├── tailwind.config.js       # Tailwind CSS config
-└── vite.config.ts           # Vite config
-\`\`\`
-
 ## 🔧 Configuration
 
-### Environment Variables
-Create a `.env` file in the root directory:
-\`\`\`env
-VITE_API_URL=http://localhost:3000
-VITE_APP_NAME=AI Interview Platform
-\`\`\`
 
 ### Tailwind Configuration
-Customize `tailwind.config.js` for theme modifications:
-\`\`\`javascript
-module.exports = {
-  darkMode: 'class',
-  theme: {
-    extend: {
-      // Add custom configurations
-    }
-  }
-}
-\`\`\`
+Tailwind using Vite
 
 ## 🧪 Browser Support
 
@@ -168,18 +116,6 @@ The platform is fully responsive and works on:
 - Light theme (default)
 - Dark theme (auto-detects system preference)
 
-### Colors
-Primary colors can be modified in `tailwind.config.js`:
-\`\`\`javascript
-colors: {
-  primary: {
-    50: '#eff6ff',
-    600: '#2563eb',
-    // ...
-  }
-}
-\`\`\`
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -194,7 +130,7 @@ MIT License - see LICENSE file for details
 
 ## 👥 Authors
 
-- Your Name - Initial work
+- Your Name - Tejraj Dewangan
 
 ## 🙏 Acknowledgments
 
